@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">PrismPop</string>
+    <string name="tagline">Match. Cascade. Clear the board.</string>
+    <string name="play">Play</string>
+    <string name="select_level">Select a level</string>
+    <string name="sound_on">Sound: On</string>
+    <string name="sound_off">Sound: Off</string>
+    <string name="level_label">Level</string>
+    <string name="score_label">Score</string>
+    <string name="moves_label">Moves</string>
+    <string name="level_format">Level %1$d</string>
+    <string name="score_format">%1$d / %2$d</string>
+    <string name="moves_format">Moves: %1$d</string>
+    <string name="level_win_title">Level cleared!</string>
+    <string name="level_win_message">Nice cascade! Ready for the next one?</string>
+    <string name="level_lose_title">Out of moves</string>
+    <string name="level_lose_message">You ran out of moves before reaching the target score.</string>
+    <string name="next_level">Next level</string>
+    <string name="retry">Retry</string>
+    <string name="back_to_levels">Levels</string>
 </resources>

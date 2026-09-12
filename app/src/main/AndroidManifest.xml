@@ -3,12 +3,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_gem_purple"
+        android:icon="@drawable/ic_launcher_chest"
         android:label="@string/app_name"
         android:theme="@style/Theme.PrismPop"
         android:supportsRtl="true">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".MainMenuActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -16,6 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LevelSelectActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
