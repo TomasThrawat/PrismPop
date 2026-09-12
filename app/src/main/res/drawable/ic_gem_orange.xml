@@ -3,26 +3,41 @@
     android:width="64dp" android:height="64dp"
     android:viewportWidth="64" android:viewportHeight="64">
     <path
-        android:pathData="M6,32A26,26 0 1,0 58,32A26,26 0 1,0 6,32Z"
+        android:pathData="M22,10 L42,10 L54,22 L32,58 L10,22 Z"
         android:strokeColor="#1a1a1a"
-        android:strokeWidth="4">
+        android:strokeWidth="3">
         <aapt:attr name="android:fillColor">
             <gradient
                 android:type="radial"
-                android:centerX="26" android:centerY="24"
-                android:gradientRadius="32"
+                android:centerX="28" android:centerY="20"
+                android:gradientRadius="34"
                 android:startColor="#ffc266"
                 android:endColor="#c47c00" />
         </aapt:attr>
     </path>
     <path
-        android:pathData="M15,32A17,17 0 1,0 49,32A17,17 0 1,0 15,32Z"
-        android:fillColor="#00000000"
-        android:strokeColor="#1a1a1a"
-        android:strokeWidth="3"
-        android:strokeAlpha="0.5"/>
-    <path
-        android:pathData="M14,22Q32,10 50,22Q32,20 14,22Z"
+        android:pathData="M22,10 L42,10 L36,20 L28,20 Z"
         android:fillColor="#ffffff"
-        android:fillAlpha="0.3"/>
+        android:fillAlpha="0.30"/>
+    <path
+        android:pathData="M22,10 L10,22 L20,30 L28,20 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.12"/>
+    <path
+        android:pathData="M42,10 L54,22 L44,30 L36,20 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.10"/>
+    <path
+        android:pathData="M10,22 L32,58 L20,30 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.20"/>
+    <path
+        android:pathData="M54,22 L32,58 L44,30 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.32"/>
+    <path
+        android:pathData="M28,20 L20,30 M36,20 L44,30 M20,30 L44,30 M20,30 L32,58 M44,30 L32,58"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.4"/>
 </vector>
