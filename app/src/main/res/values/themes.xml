@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.PrismPop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#e63950</item>
+        <item name="colorPrimaryDark">#1b1b2f</item>
+        <item name="android:windowBackground">@color/board_bg</item>
+    </style>
+</resources>
